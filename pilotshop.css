@@ -2,7 +2,7 @@
 	box-sizing: border-box;
 }
 body {
-	font-family: Ubuntu;
+	font-family: arial, sans serif;
 	width:1000px;
 	max-width: 100%;
 
@@ -25,11 +25,14 @@ nav {
 	display: flex;
 	padding-top:10px;
 	text-align: center;
+	font-size: 15px;
+	align-items:center;
 	
 }
 .nav-links li {
 	list-style-type: none;
 	padding-left: 20px;
+	font-size: 15px;
 	
 }
 .navlinks input {
@@ -41,6 +44,8 @@ input {
 	border: none;
 	background-color:  #f8f8f8;
 	color: #b7b7b8;
+	font-size: 15px;
+	padding-left: 10px;
 }
 .searchform{
 	align-items:center;
@@ -59,6 +64,7 @@ button {
 	max-width: 80%;
 	margin: 0 auto;
 	
+	
 	align-item: center;
 }
 
@@ -75,16 +81,37 @@ button {
 }
 
 .secondNav li:hover {
-	border: 2px solid black;
-	margin-top: 30px;
-	margin-bottom: 50px;
-	text-decoration: none !important
+    border: 2px solid black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-decoration: none !important;
+    padding: 5px;
 }
-
+.mainImage {
+    position: relative;
+     text-align: center;
+     color: white;
+}
 .mainImage img {
 	width:1000px;
 	max-width: 100%;
 	margin:0;
 	padding:0
 	border:none;
+}
+.centered {
+    position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -400%);
+     font-size: 40px;
+	 font-weight: 400;
+}
+.centeredunder {
+    position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -400%);
+     font-size: 32px;
+	 font-weight: 400;
 }
